@@ -1,0 +1,49 @@
+{
+  "row_count": 3,
+  "column_count": 4,
+  "columns": [
+    "考试名字",
+    "语文",
+    "数学",
+    "英语"
+  ],
+  "numeric_columns": [
+    "语文",
+    "数学",
+    "英语"
+  ],
+  "categorical_columns": [
+    "考试名字"
+  ],
+  "summary": {
+    "语文": {
+      "mean": 93.66666666666667,
+      "median": 95.0,
+      "std": 5.131601439446884,
+      "min": 88.0,
+      "max": 98.0
+    },
+    "数学": {
+      "mean": 92.66666666666667,
+      "median": 98.0,
+      "std": 11.015141094572204,
+      "min": 80.0,
+      "max": 100.0
+    },
+    "英语": {
+      "mean": 92.66666666666667,
+      "median": 90.0,
+      "std": 6.429100507328636,
+      "min": 88.0,
+      "max": 100.0
+    }
+  },
+  "charts": [
+    "charts/语文_hist.png",
+    "charts/语文_box.png",
+    "charts/数学_hist.png",
+    "charts/数学_box.png",
+    "charts/英语_hist.png",
+    "charts/英语_box.png"
+  ]
+}

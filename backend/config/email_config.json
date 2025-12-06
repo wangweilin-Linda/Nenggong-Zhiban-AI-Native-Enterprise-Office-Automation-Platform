@@ -1,0 +1,15 @@
+{
+  "smtp_server": "smtp.qq.com",
+  "smtp_port": 587,
+  "smtp_username": "2197282587@qq.com",
+  "smtp_password": "ofpdggrdrcoxecae",
+  "sender_email": "2197282587@qq.com",
+  "receive_type": "imap",
+  "receive_server": "imap.qq.com",
+  "receive_port": 993,
+  "receive_secure": "ssl",
+  "smtp_ssl": false,
+  "smtp_tls": true,
+  "receiving_ssl": true,
+  "receiving_tls": false
+}

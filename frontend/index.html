@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OA系统演示</title>
+  <script>
+    // 全局错误处理
+    window.onerror = function(message, source, lineno, colno, error) {
+      console.error('全局JS错误:', {message, source, lineno, colno});
+      if (error) console.error(error);
+      // 错误发生时显示一个简单的界面
+      const appDiv = document.getElementById('app');
+      if (appDiv && appDiv.childNodes.length === 0) {
+        appDiv.innerHTML = `
+          <div style="position:fixed;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;background:#f5f6fa;flex-direction:column;font-family:sans-serif;color:#333;">
+            <h2 style="color:#f56c6c;margin-bottom:20px;">应用加载失败</h2>
+            <p style="margin-bottom:10px;">详细错误信息请查看控制台</p>
+            <button onclick="location.reload()" style="padding:8px 16px;background:#1890ff;color:white;border:none;border-radius:4px;cursor:pointer;">
+              重新加载页面
+            </button>
+          </div>
+        `;
+      }
+      return true;
+    };
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

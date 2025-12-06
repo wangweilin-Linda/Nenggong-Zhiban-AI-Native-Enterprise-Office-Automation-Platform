@@ -1,0 +1,202 @@
+[
+    {
+        "id": "1",
+        "name": "通用审批流程",
+        "description": "适用于一般性申请的审批流程",
+        "nodes": [
+            {
+                "id": "start",
+                "name": "开始",
+                "type": "start",
+                "description": "流程开始",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": []
+            },
+            {
+                "id": "manager_approval",
+                "name": "部门经理审批",
+                "type": "approval",
+                "description": "部门经理审核申请内容，确认申请的必要性和合理性",
+                "allowed_roles": ["manager"],
+                "allowed_users": ["manager"],
+                "requires": ["start"]
+            },
+            {
+                "id": "director_approval",
+                "name": "总监审批",
+                "type": "approval",
+                "description": "总监进行最终审批，评估申请的整体价值和影响",
+                "allowed_roles": ["director"],
+                "allowed_users": ["admin"],
+                "requires": ["manager_approval"]
+            },
+            {
+                "id": "end",
+                "name": "结束",
+                "type": "end",
+                "description": "流程结束",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": ["director_approval"]
+            }
+        ],
+        "transitions": [
+            {"source": "start", "destination": "manager_approval", "trigger": "submit"},
+            {"source": "manager_approval", "destination": "director_approval", "trigger": "approve"},
+            {"source": "manager_approval", "destination": "start", "trigger": "reject"},
+            {"source": "manager_approval", "destination": "start", "trigger": "return"},
+            {"source": "director_approval", "destination": "end", "trigger": "approve"},
+            {"source": "director_approval", "destination": "manager_approval", "trigger": "return"},
+            {"source": "director_approval", "destination": "start", "trigger": "reject"}
+        ],
+        "form_template": {
+            "title": "标题",
+            "content": "详细内容",
+            "attachments": "附件"
+        }
+    },
+    {
+        "id": "2",
+        "name": "财务审批流程",
+        "description": "适用于财务预算、报销等财务相关审批",
+        "nodes": [
+            {
+                "id": "start",
+                "name": "开始",
+                "type": "start",
+                "description": "流程开始",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": []
+            },
+            {
+                "id": "manager_approval",
+                "name": "部门经理审批",
+                "type": "approval",
+                "description": "部门经理审核财务申请内容，确认费用的必要性和合理性",
+                "allowed_roles": ["manager"],
+                "allowed_users": ["manager"],
+                "requires": ["start"]
+            },
+            {
+                "id": "finance_approval",
+                "name": "财务审核",
+                "type": "approval",
+                "description": "财务部门审核预算金额的合规性和可行性",
+                "allowed_roles": ["finance"],
+                "allowed_users": ["finance"],
+                "requires": ["manager_approval"]
+            },
+            {
+                "id": "cfo_approval",
+                "name": "财务总监审批",
+                "type": "approval",
+                "description": "财务总监最终审批，评估财务申请的整体影响",
+                "allowed_roles": ["cfo"],
+                "allowed_users": ["admin"],
+                "requires": ["finance_approval"]
+            },
+            {
+                "id": "end",
+                "name": "结束",
+                "type": "end",
+                "description": "流程结束",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": ["cfo_approval"]
+            }
+        ],
+        "transitions": [
+            {"source": "start", "destination": "manager_approval", "trigger": "submit"},
+            {"source": "manager_approval", "destination": "finance_approval", "trigger": "approve"},
+            {"source": "manager_approval", "destination": "start", "trigger": "reject"},
+            {"source": "manager_approval", "destination": "start", "trigger": "return"},
+            {"source": "finance_approval", "destination": "cfo_approval", "trigger": "approve"},
+            {"source": "finance_approval", "destination": "manager_approval", "trigger": "return"},
+            {"source": "finance_approval", "destination": "start", "trigger": "reject"},
+            {"source": "cfo_approval", "destination": "end", "trigger": "approve"},
+            {"source": "cfo_approval", "destination": "finance_approval", "trigger": "return"},
+            {"source": "cfo_approval", "destination": "start", "trigger": "reject"}
+        ],
+        "form_template": {
+            "title": "财务申请标题",
+            "amount": "金额",
+            "purpose": "用途",
+            "content": "详细说明",
+            "attachments": "附件"
+        }
+    },
+    {
+        "id": "3",
+        "name": "采购审批流程",
+        "description": "适用于物品采购、设备购置等审批",
+        "nodes": [
+            {
+                "id": "start",
+                "name": "开始",
+                "type": "start",
+                "description": "流程开始",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": []
+            },
+            {
+                "id": "manager_approval",
+                "name": "部门经理审批",
+                "type": "approval",
+                "description": "部门经理审核采购申请，确认采购的必要性",
+                "allowed_roles": ["manager"],
+                "allowed_users": ["manager"],
+                "requires": ["start"]
+            },
+            {
+                "id": "procurement_approval",
+                "name": "采购部审核",
+                "type": "approval",
+                "description": "采购部门审核供应商选择和价格合理性",
+                "allowed_roles": ["procurement"],
+                "allowed_users": ["procurement"],
+                "requires": ["manager_approval"]
+            },
+            {
+                "id": "finance_approval",
+                "name": "财务审批",
+                "type": "approval",
+                "description": "财务部门审批资金支出",
+                "allowed_roles": ["finance"],
+                "allowed_users": ["finance"],
+                "requires": ["procurement_approval"]
+            },
+            {
+                "id": "end",
+                "name": "结束",
+                "type": "end",
+                "description": "流程结束",
+                "allowed_roles": [],
+                "allowed_users": [],
+                "requires": ["finance_approval"]
+            }
+        ],
+        "transitions": [
+            {"source": "start", "destination": "manager_approval", "trigger": "submit"},
+            {"source": "manager_approval", "destination": "procurement_approval", "trigger": "approve"},
+            {"source": "manager_approval", "destination": "start", "trigger": "reject"},
+            {"source": "manager_approval", "destination": "start", "trigger": "return"},
+            {"source": "procurement_approval", "destination": "finance_approval", "trigger": "approve"},
+            {"source": "procurement_approval", "destination": "manager_approval", "trigger": "return"},
+            {"source": "procurement_approval", "destination": "start", "trigger": "reject"},
+            {"source": "finance_approval", "destination": "end", "trigger": "approve"},
+            {"source": "finance_approval", "destination": "procurement_approval", "trigger": "return"},
+            {"source": "finance_approval", "destination": "start", "trigger": "reject"}
+        ],
+        "form_template": {
+            "title": "采购申请标题",
+            "items": "采购物品清单",
+            "vendor": "供应商",
+            "price": "预估价格",
+            "content": "详细说明",
+            "attachments": "附件"
+        }
+    }
+] 

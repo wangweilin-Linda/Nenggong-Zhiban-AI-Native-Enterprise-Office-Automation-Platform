@@ -1,0 +1,106 @@
+{
+  "process_meta": {
+    "process_type": "generic_approval",
+    "version": "2.0",
+    "description": "通用审批流程状态机"
+  },
+  "states": {
+    "initiator": {
+      "type": "start",
+      "role": "发起人",
+      "transitions": [
+        {
+          "trigger": "submit",
+          "target": "first_approver",
+          "description": "提交申请"
+        },
+        {
+          "trigger": "cancel",
+          "target": "rejected",
+          "description": "主动撤回"
+        }
+      ]
+    },
+    "first_approver": {
+      "type": "intermediate",
+      "role": "部门主管",
+      "transitions": [
+        {
+          "trigger": "approve",
+          "target": "final_approver",
+          "description": "初审通过"
+        },
+        {
+          "trigger": "reject",
+          "target": "rejected",
+          "description": "初审拒绝"
+        },
+        {
+          "trigger": "return",
+          "target": "initiator",
+          "description": "退回修改"
+        }
+      ]
+    },
+    "final_approver": {
+      "type": "intermediate",
+      "role": "总经理",
+      "transitions": [
+        {
+          "trigger": "approve",
+          "target": "approved",
+          "description": "终审通过"
+        },
+        {
+          "trigger": "reject",
+          "target": "rejected",
+          "description": "终审拒绝"
+        },
+        {
+          "trigger": "delegate",
+          "target": "delegated_approver",
+          "condition": "{{need_delegate}} == true",
+          "description": "转交他人审批"
+        }
+      ]
+    },
+    "delegated_approver": {
+      "type": "intermediate",
+      "role": "授权审批人",
+      "transitions": [
+        {
+          "trigger": "approve",
+          "target": "final_approver",
+          "description": "代理审批通过"
+        },
+        {
+          "trigger": "reject",
+          "target": "rejected",
+          "description": "代理审批拒绝"
+        }
+      ]
+    },
+    "approved": {
+      "type": "end",
+      "final_status": "通过"
+    },
+    "rejected": {
+      "type": "end",
+      "final_status": "拒绝"
+    }
+  },
+  "triggers": [
+    {
+      "name": "approve",
+      "type": "正向操作"
+    },
+    {
+      "name": "reject",
+      "type": "终止操作"
+    },
+    {
+      "name": "return",
+      "type": "逆向操作"
+    }
+  ]
+}

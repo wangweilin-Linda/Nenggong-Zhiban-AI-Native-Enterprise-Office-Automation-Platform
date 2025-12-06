@@ -1,0 +1,9 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+列名: 地区, 销售额, 利润, 成本
+Analysis completed. Results saved to data/result.json and charts saved to data/charts/
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-tzfvts5b because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.

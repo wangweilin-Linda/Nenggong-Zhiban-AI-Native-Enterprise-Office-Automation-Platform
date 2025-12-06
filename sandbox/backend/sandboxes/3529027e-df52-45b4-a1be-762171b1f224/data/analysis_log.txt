@@ -1,0 +1,400 @@
+===== 标准输出 =====
+成功读取CSV文件，共3行，4列
+列名: 考试名字, 语文, 数学, 英语
+分析完成，结果已保存到result.json
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+/usr/local/lib/python3.12/site-packages/seaborn/utils.py:84: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  fig.canvas.draw()
+/usr/local/lib/python3.12/site-packages/seaborn/utils.py:84: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from current font.
+  fig.canvas.draw()
+/usr/local/lib/python3.12/site-packages/seaborn/utils.py:84: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  fig.canvas.draw()
+/usr/local/lib/python3.12/site-packages/seaborn/utils.py:84: UserWarning: Glyph 23398 (\N{CJK UNIFIED IDEOGRAPH-5B66}) missing from current font.
+  fig.canvas.draw()
+/usr/local/lib/python3.12/site-packages/seaborn/utils.py:84: UserWarning: Glyph 33521 (\N{CJK UNIFIED IDEOGRAPH-82F1}) missing from current font.
+  fig.canvas.draw()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 21464 (\N{CJK UNIFIED IDEOGRAPH-53D8}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 30456 (\N{CJK UNIFIED IDEOGRAPH-76F8}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 20851 (\N{CJK UNIFIED IDEOGRAPH-5173}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 24615 (\N{CJK UNIFIED IDEOGRAPH-6027}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 28909 (\N{CJK UNIFIED IDEOGRAPH-70ED}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 21147 (\N{CJK UNIFIED IDEOGRAPH-529B}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:85: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 23398 (\N{CJK UNIFIED IDEOGRAPH-5B66}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 33521 (\N{CJK UNIFIED IDEOGRAPH-82F1}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 21464 (\N{CJK UNIFIED IDEOGRAPH-53D8}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 30456 (\N{CJK UNIFIED IDEOGRAPH-76F8}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 20851 (\N{CJK UNIFIED IDEOGRAPH-5173}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 24615 (\N{CJK UNIFIED IDEOGRAPH-6027}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 28909 (\N{CJK UNIFIED IDEOGRAPH-70ED}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 21147 (\N{CJK UNIFIED IDEOGRAPH-529B}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:88: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 23398 (\N{CJK UNIFIED IDEOGRAPH-5B66}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 23398 (\N{CJK UNIFIED IDEOGRAPH-5B66}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 33521 (\N{CJK UNIFIED IDEOGRAPH-82F1}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:160: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.tight_layout(rect=[0, 0, 1, 0.96])
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 23494 (\N{CJK UNIFIED IDEOGRAPH-5BC6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 33521 (\N{CJK UNIFIED IDEOGRAPH-82F1}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25955 (\N{CJK UNIFIED IDEOGRAPH-6563}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25454 (\N{CJK UNIFIED IDEOGRAPH-636E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25490 (\N{CJK UNIFIED IDEOGRAPH-6392}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 21518 (\N{CJK UNIFIED IDEOGRAPH-540E}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32034 (\N{CJK UNIFIED IDEOGRAPH-7D22}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 24341 (\N{CJK UNIFIED IDEOGRAPH-5F15}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 25240 (\N{CJK UNIFIED IDEOGRAPH-6298}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 32500 (\N{CJK UNIFIED IDEOGRAPH-7EF4}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')
+/app/sandboxes/3529027e-df52-45b4-a1be-762171b1f224/analyze.py:163: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from current font.
+  plt.savefig(f'data/{chart_path}', dpi=120, bbox_inches='tight')

@@ -1,0 +1,42 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+列名: 地区, 销售额, 利润, 成本
+
+列类型信息:
+  地区: numeric
+  销售额: numeric
+  利润: numeric
+  成本: numeric
+Index(['地区', '销售额', '利润', '成本'], dtype='object')
+分析完成，结果已保存到result.json
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-pb049n3f because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 21644 (\N{CJK UNIFIED IDEOGRAPH-548C}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')
+/app/sandboxes/140846ca-984e-427d-bd07-9a67c7378793/analyze.py:109: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.savefig('data/charts/sales_profit_cost_ratios.png')

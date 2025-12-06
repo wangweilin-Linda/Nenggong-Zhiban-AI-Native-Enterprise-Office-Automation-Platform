@@ -1,0 +1,8 @@
+===== 标准输出 =====
+
+
+===== 标准错误 =====
+  File "/app/sandboxes/02770499-97c2-4f46-9689-d20c4d4a9c3d/analyze.py", line 132
+    stat_text = f"平均值: {df[col].mean():.2f}
+                ^
+SyntaxError: unterminated f-string literal (detected at line 132)

@@ -1,0 +1,35 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+列名: 地区, 销售额, 利润, 成本
+
+列类型信息:
+  地区: numeric
+  销售额: numeric
+  利润: numeric
+  成本: numeric
+Index(['地区', '销售额', '利润', '成本'], dtype='object')
+分析了每个地区的总销售额和总利润，以及平均成本。
+分析完成，结果已保存到result.json
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-de125xe7 because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:92: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig('data/charts/total_sales_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:92: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig('data/charts/total_sales_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:92: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig('data/charts/total_sales_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:92: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig('data/charts/total_sales_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:92: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig('data/charts/total_sales_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:97: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig('data/charts/total_profit_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:97: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig('data/charts/total_profit_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:97: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig('data/charts/total_profit_by_region.png')
+/app/sandboxes/0787cf22-0564-4443-ba89-a6e0d35d102e/analyze.py:97: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig('data/charts/total_profit_by_region.png')

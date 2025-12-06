@@ -1,0 +1,8 @@
+===== 标准输出 =====
+
+
+===== 标准错误 =====
+  File "/app/sandboxes/d28fbf1a-b6e6-4c27-ac1c-a74d4dd33119/analyze.py", line 55
+    plt.tight_layout()
+    ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

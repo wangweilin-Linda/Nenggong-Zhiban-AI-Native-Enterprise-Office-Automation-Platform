@@ -1,0 +1,112 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+列名: 地区, 销售额, 利润, 成本
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-1gz_rr8v because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 21271 (\N{CJK UNIFIED IDEOGRAPH-5317}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 20140 (\N{CJK UNIFIED IDEOGRAPH-4EAC}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 28023 (\N{CJK UNIFIED IDEOGRAPH-6D77}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 24191 (\N{CJK UNIFIED IDEOGRAPH-5E7F}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 24030 (\N{CJK UNIFIED IDEOGRAPH-5DDE}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 28145 (\N{CJK UNIFIED IDEOGRAPH-6DF1}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 22323 (\N{CJK UNIFIED IDEOGRAPH-5733}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 37117 (\N{CJK UNIFIED IDEOGRAPH-90FD}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 27494 (\N{CJK UNIFIED IDEOGRAPH-6B66}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 27721 (\N{CJK UNIFIED IDEOGRAPH-6C49}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 26477 (\N{CJK UNIFIED IDEOGRAPH-676D}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 21335 (\N{CJK UNIFIED IDEOGRAPH-5357}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 37325 (\N{CJK UNIFIED IDEOGRAPH-91CD}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 24198 (\N{CJK UNIFIED IDEOGRAPH-5E86}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 35199 (\N{CJK UNIFIED IDEOGRAPH-897F}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 23433 (\N{CJK UNIFIED IDEOGRAPH-5B89}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:74: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 21271 (\N{CJK UNIFIED IDEOGRAPH-5317}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 20140 (\N{CJK UNIFIED IDEOGRAPH-4EAC}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 28023 (\N{CJK UNIFIED IDEOGRAPH-6D77}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 24191 (\N{CJK UNIFIED IDEOGRAPH-5E7F}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 24030 (\N{CJK UNIFIED IDEOGRAPH-5DDE}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 28145 (\N{CJK UNIFIED IDEOGRAPH-6DF1}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 22323 (\N{CJK UNIFIED IDEOGRAPH-5733}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 37117 (\N{CJK UNIFIED IDEOGRAPH-90FD}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 27494 (\N{CJK UNIFIED IDEOGRAPH-6B66}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 27721 (\N{CJK UNIFIED IDEOGRAPH-6C49}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 26477 (\N{CJK UNIFIED IDEOGRAPH-676D}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 21335 (\N{CJK UNIFIED IDEOGRAPH-5357}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 37325 (\N{CJK UNIFIED IDEOGRAPH-91CD}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 24198 (\N{CJK UNIFIED IDEOGRAPH-5E86}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 35199 (\N{CJK UNIFIED IDEOGRAPH-897F}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 23433 (\N{CJK UNIFIED IDEOGRAPH-5B89}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')
+/app/sandboxes/02a04c8a-a2fe-4918-94df-efbc2d6865a3/analyze.py:75: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from current font.
+  plt.savefig('data/charts/sales_by_region.png')

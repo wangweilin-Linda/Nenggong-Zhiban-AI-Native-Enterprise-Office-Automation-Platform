@@ -1,0 +1,400 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+分析完成，结果已保存到result.json
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-jvqvv26k because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:53: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 26041 (\N{CJK UNIFIED IDEOGRAPH-65B9}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:56: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.tight_layout()
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:64: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.tight_layout()
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 31665 (\N{CJK UNIFIED IDEOGRAPH-7BB1}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+/app/sandboxes/f2d20614-4a51-43df-b6fb-763f487eaf4d/analyze.py:67: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'data/{chart_path}')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei

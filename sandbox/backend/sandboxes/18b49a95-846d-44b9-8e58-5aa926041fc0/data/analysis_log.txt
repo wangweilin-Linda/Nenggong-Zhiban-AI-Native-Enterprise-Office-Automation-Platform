@@ -1,0 +1,7 @@
+===== 标准输出 =====
+成功读取CSV文件，共3行，4列
+数据中缺少必要的列：'date' 或 'value'
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: data-analysis-sandbox
+    ports:
+      - "8002:8000"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./sandboxes:/app/sandboxes
+    environment:
+      - DEBUG=True
+      - SANDBOX_BASE_DIR=/app/sandboxes
+    networks:
+      - sandbox-network
+    restart: always
+
+networks:
+  sandbox-network:
+    driver: bridge

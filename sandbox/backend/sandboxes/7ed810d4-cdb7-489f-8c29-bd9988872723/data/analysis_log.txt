@@ -1,0 +1,131 @@
+===== 标准输出 =====
+成功读取CSV文件，共3行，4列
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 24320 (\N{CJK UNIFIED IDEOGRAPH-5F00}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 23398 (\N{CJK UNIFIED IDEOGRAPH-5B66}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 32771 (\N{CJK UNIFIED IDEOGRAPH-8003}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 26399 (\N{CJK UNIFIED IDEOGRAPH-671F}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 26411 (\N{CJK UNIFIED IDEOGRAPH-672B}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 35797 (\N{CJK UNIFIED IDEOGRAPH-8BD5}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 21517 (\N{CJK UNIFIED IDEOGRAPH-540D}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 23383 (\N{CJK UNIFIED IDEOGRAPH-5B57}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 35821 (\N{CJK UNIFIED IDEOGRAPH-8BED}) missing from current font.
+  plt.savefig(chart_path)
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 25991 (\N{CJK UNIFIED IDEOGRAPH-6587}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+/app/sandboxes/7ed810d4-cdb7-489f-8c29-bd9988872723/analyze.py:45: UserWarning: Glyph 33521 (\N{CJK UNIFIED IDEOGRAPH-82F1}) missing from current font.
+  plt.savefig(chart_path)
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei

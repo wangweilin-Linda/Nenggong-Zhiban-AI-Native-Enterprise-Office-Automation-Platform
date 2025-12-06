@@ -1,0 +1,67 @@
+===== 标准输出 =====
+成功读取CSV文件，共10行，4列
+列名: 地区, 销售额, 利润, 成本
+数据处理和可视化完成！
+
+
+===== 标准错误 =====
+Duplicate key in file PosixPath('/usr/local/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc'), line 799 ('font.sans-serif : WenQuanYi Micro Hei')
+Matplotlib created a temporary cache directory at /tmp/matplotlib-0y187c3q because the default path (/nonexistent/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:75: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from current font.
+  plt.savefig(f'{charts_dir}利润率分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:83: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(f'{charts_dir}销售额分布.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 21033 (\N{CJK UNIFIED IDEOGRAPH-5229}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 28070 (\N{CJK UNIFIED IDEOGRAPH-6DA6}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 19982 (\N{CJK UNIFIED IDEOGRAPH-4E0E}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 20851 (\N{CJK UNIFIED IDEOGRAPH-5173}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 31995 (\N{CJK UNIFIED IDEOGRAPH-7CFB}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')
+/app/sandboxes/66faabec-4866-4c0d-9af3-576c94d53076/analyze.py:91: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from current font.
+  plt.savefig(f'{charts_dir}成本与利润.png')

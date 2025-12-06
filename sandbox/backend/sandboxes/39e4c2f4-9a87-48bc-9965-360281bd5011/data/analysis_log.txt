@@ -1,0 +1,8 @@
+===== 标准输出 =====
+
+
+===== 标准错误 =====
+Traceback (most recent call last):
+  File "/app/sandboxes/39e4c2f4-9a87-48bc-9965-360281bd5011/analyze.py", line 6, in <module>
+    from scipy import stats
+ModuleNotFoundError: No module named 'scipy'
